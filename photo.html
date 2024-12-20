@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photography Portfolio</title>
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+            integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="photostyle.css">
+    </head>
+
+    <body>
+        <div class="cursor">  
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>            
+        <!-- header -->
+        <header id="header" class="vh-100 flex">
+            <!-- Navigation Bar -->
+            <nav id="navbar" class="flex">
+                <div class="container flex">
+                    <h1 class="logo">Photography Portfolio</h1>
+                    <ul class="nav-links flex">
+                        <li><a href="./index.html">Home</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- portfolio section -->
+            <div class="lightbox" id="lightbox">
+                <span class="close">&times;</span>
+                <span class="arrow left-arrow">&lt;</span>
+                <img class="lightbox-img" id="lightbox-img" src="" alt="Selected Image">
+                <span class="arrow right-arrow">&gt;</span>
+                <div class="lightbox-caption" id="lightbox-caption"></div>
+            </div>
+
+            <section id="portfolio" class="vh-100 py-7">
+                <div class="container">
+                    <div class="portfolio-content">
+                        <div class="title"><br><br>
+                            <h2>Photographs</h2>
+                        </div>
+                        <div class="portfolio-grid grid">
+                            <div style="height: 650px;">
+                                <img src="images/IMG_5730.jpg" alt="Photo 1" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 650px;">
+                                <img src=" images/IMG_5006.JPG" alt="Photo 2" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 350px;">
+                                <img src="images/IMG_6472.jpg" alt="Photo 3" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 350px;">
+                                <img src="images/IMG_2292.jpg" alt="Photo 4" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 350px;">
+                                <img src="images/IMG_2019_jpg.jpg" alt="Photo 5" class="portfolio-img" rel="preload">
+                            </div>
+
+                            <div style="height: 650px;">
+                                <img src="images/IMG_6190.jpg" alt="Photo 6" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 650px;">
+                                <img src=" images/IMG_5732.jpg" alt="Photo 7" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 350px;">
+                                <img src="images/FullSizeRender.jpg" alt="Photo 8" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 350px;">
+                                <img src="images/IMG7.jpg" alt="Photo 9" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 350px;">
+                                <img src="images/IMG3.jpg" alt="Photo 10" class="portfolio-img" rel="preload">
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio-grid grid" style="padding-top:10px">
+                            <div style="height: 650px;">
+                                <img src="images/IMG_5446.jpg" alt="Photo 11" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 650px;">
+                                <img src=" images/IMG1.jpg" alt="Photo 12" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 350px;">
+                                <img src="images/IMG5.jpg" alt="Photo 13" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 350px;">
+                                <img src="images/IMG_6466.jpg" alt="Photo 14" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 350px;">
+                                <img src="images/IMG_5453.jpg" alt="Photo 15" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 650px;">
+                                <img src="images/IMG_9754.jpg" alt="Photo 16" class="portfolio-img" rel="preload">
+                            </div>
+                            <div style="height: 650px;">
+                                <img src=" images/IMG10.jpg" alt="Photo 17" class="portfolio-img" rel="preload">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <!-- end of header -->
+
+        <!-- footer -->
+        <footer id="footer" class="py-7">
+            <div class="container">
+                <div class="footer-content">
+                    <div>
+                        <img src="images/Trojan Hex Logo SVG.svg" alt="Logo">
+                        <h4>&copy; 2024, Design & Developed by Team Trojan Hex</h4>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src="photoscript.js"></script>
+    </body>
+
+</html>
